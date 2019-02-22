@@ -71,6 +71,7 @@ public class TimelineActivity extends AppCompatActivity {
                 // Log.d("TwitterClient", response.toString());
                 //Iterate through the list of tweets
                 List<Tweet> tweetsToAdd = new ArrayList<>();
+
                 for (int i = 0; i < response.length(); i++) {
                     try {
                         //Convert each JSON object into a Tweet object
